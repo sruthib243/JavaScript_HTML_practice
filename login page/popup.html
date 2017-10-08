@@ -1,0 +1,119 @@
+<!DOCTYPE>
+<HTML>
+
+<HEAD>
+<TITLE>Register</TITLE>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <script>
+  function back() {
+   window.history.back();
+}
+  </script>
+  
+  <style>
+  body{
+  
+  background-color: #0b3e67;
+  }
+  
+  .white{
+  width: 500px;
+  height: 424px;
+  background-color: aliceblue;
+  margin: 0 auto;
+  border-radius: 10px;
+  }
+  
+  .left-tagline{
+font-size : 7px;
+margin: -5px 0px 2px 19px
+}
+
+.right-tagline{
+font-size : 7px;
+margin: -12px 0px 0px 177px
+}
+
+input:placeholder-shown {
+  border: 1px solid grey;
+  font-size: 10pt;
+  font-family: system-ui;
+  color: light-grey;
+}
+
+form{
+
+margin: 0 auto;
+padding: 142px 0px 24px 4px;
+}
+
+.input-group{
+
+margin: 1px 10px 10px 10px;
+color: #0b3e67;
+
+
+}
+
+.heading{
+margin: 0 auto;
+padding: 10px 23px 12px 12px;
+}
+
+
+.input-group-addon{
+
+background-color: #2a5a82;
+color:white;
+}
+
+.heading{
+    font-weight: bold;
+    color: #2a5a82;
+    margin: 10px 10px 10px 10px;;
+}
+
+
+.buttons {
+    margin: 10px 10px 10px 121px;
+    padding: 7px 24px 10px 35px;
+
+}
+  
+  </style>
+</HEAD>
+
+<body>
+<p>  </p>
+
+<div class="white">
+ <form>
+ 
+ <div class="heading">Please provide your username and email. The activation email will be sent to the email provided.</div>
+    <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input id="text" type="text" class="form-control" name="email" placeholder="USERNAME">
+    </div>
+	<div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+      <input id="email" type="email" class="form-control" name="email" placeholder="EMAIL">
+    </div>
+	<div class = "buttons">
+	<button type="button" class="btn btn-primary">Submit</button>
+	<button type="button" class="btn btn-primary" onclick="back()">Cancel</button>
+	</div>
+	
+  </form>
+
+</div>
+
+
+
+</body>
+
+</HTML>

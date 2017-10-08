@@ -1,0 +1,102 @@
+body
+{
+background-color : black;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.honey{
+margin : 150px 30px 30px 350px;
+padding-bottom: 20px;
+height: 300px;
+width: 500px;
+position: center;
+background-color: #0b3e67;
+font-weight:bold;
+color: #307d9a;
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.heading
+{
+
+margin: 108px 50px 30px 116px;
+font-family: ff-clan italic;
+padding: 16px 10px 4px 8px;
+}
+
+
+.sub-heading
+{
+margin : 6px 30px 30px 108px;
+    height: 177px;
+    width: 291px;
+background-color: #0d314e;
+border-radius:6px;
+}
+
+.small-heading
+{
+font-size: 10px;
+color : white;
+font-family: Arial, Helvetica, sans-serif;
+margin: 10px 10px 0px 10px;
+padding: 4px;
+
+}
+
+input{
+
+border-radius:3px;
+}
+
+.box{
+
+margin: 14px 10px 10px 58px;
+
+width: 160px;
+}
+
+.blue-button{
+background-color : #2a5a82;
+width: 16pc;
+border-radius:3px;
+font-family: system-ui;
+margin: -33px 10px 10px 16px;
+    font-size: 15px;
+color : white;
+}
+
+.left-tagline{
+font-size : 7px;
+margin: -5px 0px 2px 19px
+}
+
+.right-tagline{
+font-size : 7px;
+margin: -12px 0px 0px 177px
+}
+
+input:placeholder-shown {
+  border: 1px solid grey;
+  font-size: 10pt;
+  font-family: system-ui;
+  color: light-grey;
+}
+
+.input-group{
+
+margin: 1px 10px 10px 10px;
+color: #0b3e67;
+
+
+}
+
+
+.input-group-addon{
+
+background-color: #2a5a82;
+color:white;
+}
